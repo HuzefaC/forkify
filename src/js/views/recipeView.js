@@ -1,6 +1,5 @@
 import View from './View';
 import iconsUrl from '../../img/icons.svg';
-import { Fraction } from 'fractional';
 import fracty from 'fracty';
 
 const [icons] = iconsUrl.split('?');
