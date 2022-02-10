@@ -1,6 +1,7 @@
 import View from './View';
 import iconsUrl from '../../img/icons.svg';
 import { Fraction } from 'fractional';
+import fracty from 'fracty';
 
 const [icons] = iconsUrl.split('?');
 
@@ -132,7 +133,7 @@ class RecipeView extends View {
               <div class="recipe__quantity">
                 ${
                   ingredient.quantity
-                    ? new Fraction(ingredient.quantity).toString()
+                    ? fracty(ingredient.quantity).toString()
                     : ''
                 }
               </div>
