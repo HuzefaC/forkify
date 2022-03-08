@@ -1,3 +1,3 @@
-# forkify Project
+# [forkify](https://forkify-recipies-hc.netlify.app/)
 
-Recipe application with searching and uploading recipe functionality.
+A simple app that allows users to search for recipies.
